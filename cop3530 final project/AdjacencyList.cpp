@@ -10,7 +10,7 @@ using namespace std;
 void AdjacencyList::retrieveNodes()
 {
     // open Nodes.csv
-    ifstream nodesFile("csvs/Nodes.csv");
+    ifstream nodesFile("Nodes.csv");
     // read Nodes.csv with delimeter ;
     string line;
     while (getline(nodesFile, line))
@@ -48,7 +48,7 @@ void AdjacencyList::retrieveEdges()
     string line;
 
     // Open Edges.csv
-    ifstream edgesFile("csvs/Edges.csv");
+    ifstream edgesFile("Edges.csv");
     // Read Edges.csv with delimeter ;
 
     while (getline(edgesFile, line))
